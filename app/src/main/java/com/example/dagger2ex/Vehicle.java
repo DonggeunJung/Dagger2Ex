@@ -2,9 +2,6 @@ package com.example.dagger2ex;
 
 import javax.inject.Inject;
 
-/**
- * Created by hani on 5/29/17.
- */
 class Vehicle {
     private Motor motor;
 

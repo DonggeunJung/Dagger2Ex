@@ -1,13 +1,9 @@
 package com.example.dagger2ex;
 
 import javax.inject.Singleton;
-
 import dagger.Module;
 import dagger.Provides;
 
-/**
- * Created by hani on 5/29/17.
- */
 @Module
 class MyModule {
 

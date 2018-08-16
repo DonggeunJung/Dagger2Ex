@@ -10,10 +10,38 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
+        android:layout_marginLeft ="24dp"
         android:layout_marginTop="21dp"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginTop="82dp"
+        android:onClick="onBtnAccelerate"
+        android:text="Accelerate" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRIght="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginEnd="22dp"
+        android:onClick="onBtnDecelerate"
+        android:text="Decelerate" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:onClick="onBtnStop"
+        android:text="Stop" />
 
 </RelativeLayout>
